@@ -108,3 +108,6 @@ test-results/
 
 # Misc
 =0.29.0
+
+# MCP local config
+.mcp.json
