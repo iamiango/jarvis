@@ -1,0 +1,16 @@
+{
+  "python_version": "3.11",
+  "dependencies": [
+    ".",
+    "langgraph>=0.2.0",
+    "langchain>=0.3.0",
+    "langchain-core>=0.3.0",
+    "langchain-ollama>=0.2.0"
+  ],
+  "graphs": {
+    "jarvis": "./src/studio/graph.py:graph",
+    "fund_agent": "./src/studio/fund_graph.py:graph",
+    "stock_agent": "./src/studio/stock_graph.py:graph"
+  },
+  "env": ".env"
+}

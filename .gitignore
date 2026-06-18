@@ -1,0 +1,110 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite3
+
+# Cache
+.cache/
+*.cache
+
+# Test coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Node.js (for agent-chat-ui)
+node_modules/
+.npm
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Output files
+output/
+reports/
+
+# API keys and secrets (double check these are not committed)
+*.pem
+*.key
+secrets/
+
+# Claude/Cursor specific
+.claude/
+
+# LangGraph
+.langgraph/
+.langgraph_api/
+
+# Chat UI builds
+my-chat-ui/
+agent-chat-ui/
+
+# Test results
+test-results/
+
+# Misc
+=0.29.0
